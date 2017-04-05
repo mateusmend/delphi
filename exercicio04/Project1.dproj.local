@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2017/04/03 21:46:39.245,=C:\Users\GILSONROBERTO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/03 21:46:56.188,=C:\Users\GILSONROBERTO\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2017/04/03 21:57:33.371,C:\Users\GILSONROBERTO\Desktop\Tecnico_Sabium\exercicio04\exercicio04.pas=C:\Users\GILSONROBERTO\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2017/04/03 21:57:33.371,C:\Users\GILSONROBERTO\Desktop\Tecnico_Sabium\exercicio04\exercicio04.dfm=C:\Users\GILSONROBERTO\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2017/04/03 21:57:48.997,C:\Users\GILSONROBERTO\Desktop\Tecnico_Sabium\exercicio04\Project1.dproj=C:\Users\GILSONROBERTO\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2017/04/03 23:22:41.922,=C:\Users\GILSONROBERTO\Desktop\Tecnico_Sabium\exercicio04\Unit1.pas</Transaction>
+    <Transaction>2017/04/03 23:26:46.011,C:\Users\GILSONROBERTO\Desktop\Tecnico_Sabium\exercicio04\Thread.pas=C:\Users\GILSONROBERTO\Desktop\Tecnico_Sabium\exercicio04\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

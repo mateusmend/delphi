@@ -1,0 +1,14 @@
+program Project1;
+
+uses
+  Vcl.Forms,
+  exercicio02 in 'exercicio02.pas' {Form1};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.MainFormOnTaskbar := True;
+  Application.CreateForm(TNumDivisor, Form1);
+  Application.Run;
+end.

@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{ACEE8491-48C0-4135-AC47-944916D7E4DF}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Sabium.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="exerc03.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Sabium">
+        <MSBuild Projects="Sabium.dproj"/>
+    </Target>
+    <Target Name="Sabium:Clean">
+        <MSBuild Projects="Sabium.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Sabium:Make">
+        <MSBuild Projects="Sabium.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="exerc03">
+        <MSBuild Projects="exerc03.dproj"/>
+    </Target>
+    <Target Name="exerc03:Clean">
+        <MSBuild Projects="exerc03.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="exerc03:Make">
+        <MSBuild Projects="exerc03.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Sabium;exerc03"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Sabium:Clean;exerc03:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Sabium:Make;exerc03:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
